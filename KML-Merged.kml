@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Snowplows</name>
+        <Style id="Icon1">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_OR_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Style id="Icon2">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_PK_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Style id="Icon3">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_GN_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Style id="Icon4">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_VI_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        
+        <Folder>
+            <name>SnowplowFolder</name>
+            <Placemark id="001">
+                <name>Snowplow1</name>
+                <styleUrl>#Icon1</styleUrl>
+                <Point>
+                    <coordinates>139.918463, 37.511067,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="002">
+                <name>Snowplow2</name>
+                <styleUrl>#Icon1</styleUrl>
+                <Point>
+                    <coordinates>139.928463, 37.521067,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="003">
+                <name>Snowplow3</name>
+                <styleUrl>#Icon1</styleUrl>
+                <Point>
+                    <coordinates>139.908463, 37.531067,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="004">
+                <name>Snowplow4</name>
+                <styleUrl>#Icon2</styleUrl>
+                <Point>
+                    <coordinates>139.938463, 37.501067,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="005">
+                <name>Snowplow5</name>
+                <styleUrl>#Icon3</styleUrl>
+                <Point>
+                    <coordinates>139.898463, 37.491067,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="006">
+                <name>Snowplow6</name>
+                <styleUrl>#Icon4</styleUrl>
+                <Point>
+                    <coordinates>139.888463, 37.4791067,0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+
+    <Document>
+        <name>Snowplows</name>
+        <Style id="BusIcon">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_COW_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+
+        <Folder>
+            <name>SnowplowFolder</name>
+            <Placemark id="Bus001">
+                <name>Bus1</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.921605,35.194789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus002">
+                <name>Bus2</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.911605,35.124789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus003">
+                <name>Bus3</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.941605,35.174789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus004">
+                <name>Bus4</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.891605,35.144789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus005">
+                <name>Bus5</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.911605,35.164789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus006">
+                <name>Bus6</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.951605,35.154789,0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+
+</kml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Snowplows</name>
+        <Style id="BusIcon">
+          <IconStyle>
+            <Icon>
+              <href>https://raw.githubusercontent.com/fsijiaxie/test/master/snowplow_COW_s.gif</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+
+        <Folder>
+            <name>SnowplowFolder</name>
+            <Placemark id="Bus001">
+                <name>Bus1</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.921605,35.194789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus002">
+                <name>Bus2</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.911605,35.124789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus003">
+                <name>Bus3</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.941605,35.174789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus004">
+                <name>Bus4</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.891605,35.144789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus005">
+                <name>Bus5</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.911605,35.164789,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="Bus006">
+                <name>Bus6</name>
+                <styleUrl>#BusIcon</styleUrl>
+                <Point>
+                    <coordinates>136.951605,35.154789,0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
